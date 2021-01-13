@@ -25,17 +25,5 @@ public class Spider extends Animal {
 	}
 
 
-	@Override
-	public void fly() {
-		System.out.println("I cannot fly");
-		
-	}
-
-
-	@Override
-	public void swim() {
-		System.out.println("I cannot swim");
-		
-	}
 
 }

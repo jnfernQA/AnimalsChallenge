@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public class Parrot extends Animal {
+public class Parrot extends Animal implements Flyable{
 	
 	protected int numberOfLegs = 2;
 	protected int LifeSpan = 60;
@@ -18,7 +18,7 @@ public class Parrot extends Animal {
 
 	@Override
 	public String noise() {
-		return "QAH QAAAH!!";
+		return "CAH CAAAH!!";
 		
 	}
 
@@ -28,10 +28,6 @@ public class Parrot extends Animal {
 		
 	}
 
-	@Override
-	public void swim() {
-		System.out.println("I cannot swim");
-		
-	}
+	
 
 }

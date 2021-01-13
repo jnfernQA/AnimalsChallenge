@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public class Human extends Animal{
+public class Human extends Animal implements Swimmable{
 	
 	protected int numberOfLegs =2;
 	protected int LifeSpan = 80;
@@ -22,11 +22,6 @@ public class Human extends Animal{
 		
 	}
 
-	@Override
-	public void fly() {
-		System.out.println("I cannot fly");
-		
-	}
 
 	@Override
 	public void swim() {

@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public class Whale extends Animal {
+public class Whale extends Animal implements Swimmable {
 	
 	protected int numberOfLegs = 0;
 	protected int LifeSpan = 80;
@@ -21,11 +21,6 @@ public class Whale extends Animal {
 		return "Whistles" ;
 	}
 
-	@Override
-	public void fly() {
-		System.out.println("I cannot fly.");
-		
-	}
 
 	@Override
 	public void swim() {

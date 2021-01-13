@@ -1,6 +1,6 @@
 package com.qa.main;
 
-public abstract class Animal implements Flyable, Swimmable{
+public abstract class Animal {
 	
 	protected int numberOfLegs;
 	
@@ -11,5 +11,11 @@ public abstract class Animal implements Flyable, Swimmable{
 	public abstract String name();
 	
 	public abstract String noise();
+
+	public void swim() {
+	}
+
+	public void fly() {
+	}
 	
 }

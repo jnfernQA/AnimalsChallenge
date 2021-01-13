@@ -11,12 +11,11 @@ public class Runner {
 		//Runners for Parrot
 		System.out.println(parrot1.noise());
 		parrot1.fly();
-		parrot1.swim();
+		
 		
 		//Runners for Whale
 		
 		System.out.println(whale1.name());
-		whale1.fly();
 		whale1.swim();
 		System.out.println(whale1.noise());
 		
